@@ -196,3 +196,109 @@
   width: 50%;
   border-radius: 1rem;
 }
+
+/****************************/
+/* SECTION PROGRAMS */
+/****************************/
+.section-programs {
+  padding: 9.6rem 0;
+}
+
+.program {
+  box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.09);
+  border-radius: 11px;
+  overflow: hidden;
+  transition: all 0.5s;
+}
+
+.program:hover {
+  transform: translateY(-1.2rem);
+  box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.08);
+}
+
+.program-img {
+  width: 100%;
+}
+
+.program-content {
+  padding: 2.4rem 3.2rem 3.2rem 3.2rem;
+}
+
+.program-tags {
+  display: flex;
+  gap: 0.4rem;
+
+  margin-bottom: 1.2rem;
+}
+
+.program-tag {
+  display: inline-block;
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 0.4rem 0.8rem;
+  text-transform: uppercase;
+  border-radius: 10rem;
+  color: #333;
+}
+
+.tag--high-intensity {
+  background-color: #ff8b55;
+}
+
+.tag--fat-burning {
+  background-color: #feca52;
+}
+
+.tag--muscle-building {
+  background-color: #7ea6fd;
+}
+
+.tag--body-shaping {
+  background-color: #fda6ec;
+}
+
+.tag--flexibility {
+  background-color: #74f89c;
+}
+
+.tag--mindfulness {
+  background-color: #d786ff;
+}
+
+.program-title {
+  font-size: 2.4rem;
+  color: #333;
+  font-weight: 600;
+  margin-bottom: 2.4rem;
+}
+
+.program-details {
+  list-style: none;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.program-detail {
+  font-size: 1.6rem;
+
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.program-detail span {
+  display: inline-block;
+}
+
+.program-icon {
+  width: 2.4rem;
+  height: 2.4rem;
+  color: #17a72f;
+}
+
+.choose-a-plan {
+  font-size: 1.8rem;
+  text-align: center;
+}
