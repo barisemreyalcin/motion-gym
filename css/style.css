@@ -362,3 +362,79 @@
 .gallery-img:hover {
   transform: scale(1.1);
 }
+
+/*******************/
+/* SECTION PRICING */
+/*******************/
+.section-pricing {
+  padding: 9.6rem 0;
+  justify-items: center;
+}
+
+.pricing-plan {
+  border-radius: 11px;
+  width: 85%;
+}
+
+.pricing-plan--basic {
+  justify-self: end;
+  border: 2px solid #e8f6ea;
+  padding: 4.6rem;
+}
+
+.pricing-plan--premium {
+  background-color: #e8f6ea;
+  padding: 4.8rem;
+  overflow: hidden;
+
+  position: relative;
+}
+
+.pricing-plan--premium::before {
+  content: "Best";
+  text-transform: uppercase;
+  display: block;
+  position: absolute;
+  top: 5%;
+  right: -12%;
+  transform: rotate(45deg);
+  background-color: #feca52;
+  color: #333;
+  font-size: 1.6rem;
+  font-weight: 700;
+  padding: 0.8rem 8rem;
+}
+
+.plan-header {
+  text-align: center;
+  margin-bottom: 3.6rem;
+}
+
+.plan-name {
+  color: #15962a;
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 3.6rem;
+}
+
+.plan-price {
+  font-size: 6.2rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 1.2rem;
+}
+
+.plan-price span {
+  font-size: 3.6rem;
+}
+
+.plan-text {
+  font-size: 1.6rem;
+  color: #6e6e6e;
+}
+
+.choose-plan {
+  text-align: center;
+  margin-top: 3.6rem;
+}
