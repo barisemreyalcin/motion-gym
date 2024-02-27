@@ -466,3 +466,83 @@
   font-size: 1.6rem;
   line-height: 1.6;
 }
+
+/**************************/
+/* SECTION CALL TO ACTION */
+/**************************/
+.section-cta {
+  padding: 9.6rem 0;
+}
+
+.cta {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  background-color: #17a72f;
+  box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.2);
+  border-radius: 11px;
+  background-image: linear-gradient(to right bottom, #45b959, #17a72f);
+  overflow: hidden;
+}
+
+.cta-text-box {
+  padding: 4.8rem 6.4rem 6.4rem 6.4rem;
+  color: #07320e;
+}
+
+.cta .heading-secondary {
+  color: inherit;
+  margin-bottom: 3.2rem;
+}
+
+.cta-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
+  margin-bottom: 4.8rem;
+}
+
+.cta-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 3.2rem;
+  row-gap: 2.4rem;
+}
+
+.cta-form label {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-bottom: 1.2rem;
+}
+
+.cta-form input,
+.cta-form select {
+  width: 100%;
+  font-size: 1.8rem;
+  padding: 1.2rem;
+  color: inherit;
+  font-family: inherit;
+  border: none;
+  background-color: #e8f6ea;
+  border-radius: 9px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.cta-form input::placeholder {
+  opacity: 0.5;
+}
+
+.cta-form *:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.75rem #e8f6ea6c;
+}
+
+.cta-img-box {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(69, 185, 88, 0.2),
+      rgba(23, 167, 47, 0.2)
+    ),
+    url(../img/cta-image.jpg);
+  background-size: cover;
+  background-position: center;
+}

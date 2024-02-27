@@ -16,7 +16,9 @@
   </head>
   <body>
     <header class="header">
-      <img src="img/logo.png" alt="motion gym logo" class="logo" />
+      <a href="#">
+        <img src="img/logo.png" alt="motion gym logo" class="logo" />
+      </a>
       <nav class="main-nav">
         <ul class="main-nav-list">
           <li><a class="main-nav-link" href="#">Section 1</a></li>
@@ -33,7 +35,7 @@
         <div class="hero">
           <div class="hero-text-box">
             <h1 class="heading-primary">
-              Experience the Power of Movement at Motion Gym Today!
+              Experience the power of movement at Motion Gym today!
             </h1>
             <p class="hero-description">
               Experience the Power of Movement at Motion Gym, where we offer
@@ -324,7 +326,7 @@
       <section class="section-testimonials">
         <div class="testimonials-container">
           <span class="subheading">Testimonials</span>
-          <h2 class="heading-secondary">Happy Members, Happy Stories</h2>
+          <h2 class="heading-secondary">Happy members, happy stories</h2>
 
           <div class="testimonials">
             <figure class="testimonial">
@@ -606,6 +608,63 @@
               Health and nutrition consultation service with premium
               subscription.
             </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-cta">
+        <div class="container">
+          <div class="cta">
+            <div class="cta-text-box">
+              <h2 class="heading-secondary">Begin your healthier lifestyle!</h2>
+              <p class="cta-text">
+                Join us today and choose from our personalized fitness plans to
+                start your journey to a healthier, stronger you. Enjoy a
+                two-week free trial to kickstart your transformation!
+              </p>
+
+              <form action="#" class="cta-form">
+                <div>
+                  <label for="full-name">Firstname</label>
+                  <input
+                    id="full-name"
+                    type="text"
+                    placeholder="Barış Yalçın"
+                    required
+                  />
+                </div>
+
+                <div>
+                  <label for="email">Email</label>
+                  <input
+                    id="email"
+                    type="email"
+                    placeholder="example@example.com"
+                    required
+                  />
+                </div>
+
+                <div>
+                  <label for="select-where">Where did you hear from us?</label>
+                  <select id="select-where" required>
+                    <option value="">Please select an option</option>
+                    <option value="friends">Friends and family</option>
+                    <option value="youtube">YouTube video</option>
+                    <option value="podcast">Podcast</option>
+                    <option value="facebook">Facebook ads</option>
+                    <option value="others">Others</option>
+                  </select>
+                </div>
+
+                <button class="btn btn--form">Sign up now</button>
+              </form>
+            </div>
+
+            <div
+              class="cta-img-box"
+              role="img"
+              aria-label="a woman laughing in the gym"
+            ></div>
           </div>
         </div>
       </section>
