@@ -143,7 +143,7 @@
     transform: translateX(100%);
     transition: all 0.5s ease-in;
 
-    background: #fff;
+    background: rgba(255, 255, 255, 0.97);
   }
 
   .nav-open .main-nav {
