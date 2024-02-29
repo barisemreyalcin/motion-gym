@@ -19,6 +19,11 @@
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
     ></script>
 
+    <script
+      defer
+      src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+    ></script>
+
     <script defer src="js/script.js"></script>
 
     <title>Motion Gym</title>
@@ -30,11 +35,13 @@
       </a>
       <nav class="main-nav">
         <ul class="main-nav-list">
-          <li><a class="main-nav-link" href="#">How it works</a></li>
-          <li><a class="main-nav-link" href="#">Programs</a></li>
-          <li><a class="main-nav-link" href="#">Testimonials</a></li>
-          <li><a class="main-nav-link" href="#">Pricing</a></li>
-          <li><a class="main-nav-link nav-cta" href="#">Sign up</a></li>
+          <li><a class="main-nav-link" href="#how">How it works</a></li>
+          <li><a class="main-nav-link" href="#programs">Programs</a></li>
+          <li>
+            <a class="main-nav-link" href="#testimonials">Testimonials</a>
+          </li>
+          <li><a class="main-nav-link" href="#pricing">Pricing</a></li>
+          <li><a class="main-nav-link nav-cta" href="#cta">Sign up</a></li>
         </ul>
       </nav>
 
@@ -57,10 +64,10 @@
               training programs, and a community of over 1000 members. Join us
               today and start your journey to a healthier, stronger you!
             </p>
-            <a href="#" class="btn btn--filled margin-right-sm"
+            <a href="#cta" class="btn btn--filled margin-right-sm"
               >Get fit today</a
             >
-            <a href="#" class="btn btn--outline">Learn more &darr;</a>
+            <a href="#how" class="btn btn--outline">Learn more &darr;</a>
             <div class="gym-members">
               <div class="member-imgs">
                 <img src="img/customers/member-1.jpg" alt="member photo" />
@@ -98,7 +105,7 @@
         </div>
       </section>
 
-      <section class="section-how">
+      <section class="section-how" id="how">
         <div class="container">
           <span class="subheading">How it works</span>
           <h2 class="heading-secondary">
@@ -168,7 +175,7 @@
         </div>
       </section>
 
-      <section class="section-programs">
+      <section class="section-programs" id="programs">
         <div class="container center-text">
           <span class="subheading">Fitness programs</span>
           <h2 class="heading-secondary">
@@ -333,11 +340,11 @@
           </div>
         </div>
         <div class="container choose-a-plan">
-          <a href="#" class="link">Choose a Plan &darr;</a>
+          <a href="#pricing" class="link">Choose a Plan &darr;</a>
         </div>
       </section>
 
-      <section class="section-testimonials">
+      <section class="section-testimonials" id="testimonials">
         <div class="testimonials-container">
           <span class="subheading">Testimonials</span>
           <h2 class="heading-secondary">Happy members, happy stories</h2>
@@ -486,7 +493,7 @@
         </div>
       </section>
 
-      <section class="section-pricing">
+      <section class="section-pricing" id="pricing">
         <div class="container center-text">
           <span class="subheading">Pricing</span>
           <h2 class="heading-secondary">
@@ -531,7 +538,7 @@
               </li>
             </ul>
             <div class="choose-plan">
-              <a href="#" class="btn btn--filled">Choose plan</a>
+              <a href="#cta" class="btn btn--filled">Choose plan</a>
             </div>
           </div>
 
@@ -576,7 +583,7 @@
               </li>
             </ul>
             <div class="choose-plan">
-              <a href="#" class="btn btn--filled">Choose plan</a>
+              <a href="#cta" class="btn btn--filled">Choose plan</a>
             </div>
           </div>
         </div>
@@ -626,7 +633,7 @@
         </div>
       </section>
 
-      <section class="section-cta">
+      <section class="section-cta" id="cta">
         <div class="container">
           <div class="cta">
             <div class="cta-text-box">
