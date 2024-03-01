@@ -661,11 +661,12 @@
                 two-week free trial to kickstart your transformation!
               </p>
 
-              <form action="#" class="cta-form">
+              <form name="sign-up" method="post" class="cta-form" netlify>
                 <div>
                   <label for="full-name">Firstname</label>
                   <input
                     id="full-name"
+                    name="full-name"
                     type="text"
                     placeholder="Barış Yalçın"
                     required
@@ -676,6 +677,7 @@
                   <label for="email">Email</label>
                   <input
                     id="email"
+                    name="email"
                     type="email"
                     placeholder="example@example.com"
                     required
@@ -684,7 +686,7 @@
 
                 <div>
                   <label for="select-where">Where did you hear from us?</label>
-                  <select id="select-where" required>
+                  <select id="select-where" name="select-where" required>
                     <option value="">Please select an option</option>
                     <option value="friends">Friends and family</option>
                     <option value="youtube">YouTube video</option>
@@ -694,7 +696,7 @@
                   </select>
                 </div>
 
-                <button class="btn btn--form">Sign up now</button>
+                <button type="submit" class="btn btn--form">Sign up now</button>
               </form>
             </div>
 
